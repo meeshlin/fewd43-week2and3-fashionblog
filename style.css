@@ -87,7 +87,7 @@ img {
 }
 
 .divider {
-  width:100%
+  width:100%;
   border-top:#d1d1d1 1px solid;
   margin-top:20px;
   padding-bottom:20px;
@@ -122,13 +122,15 @@ img {
 #nav-top {
   background-color:#000000;
   font-size:18px;
-  text-align:left;
   padding:0;
   margin:0;
   overflow:hidden;
+  /*(If something is bigger than the container, if you add "overflow:hidden" it'll remain within the container size)*/
 }
 
 #nav-top li {
+  text-align:center;
+  width:16%;
   display:block;
   float:left;
   border-right:#ffffff 1px solid;
